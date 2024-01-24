@@ -2,6 +2,9 @@ show dbs
 
 use jpura
 
+db.createCollection("stu");
+
+
 
 
 
