@@ -6,7 +6,9 @@ db.createCollection("stu");
 
 db.getCollection('stu').insertOne({ 'id': 1, 'name': "sdfdf", age: 34 })
 
-
+db.getCollection('stu').insertMany
+(
+)
 
 
 
