@@ -8,7 +8,11 @@ db.getCollection('stu').insertOne({ 'id': 1, 'name': "sdfdf", age: 34 })
 
 db.getCollection('stu').insertMany
 (	[
-
+		{
+		    'id':26, 
+		    'name':"ashen",
+		    'age':20
+		}
 	]
 )
 
