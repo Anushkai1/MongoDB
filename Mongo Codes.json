@@ -12,6 +12,11 @@ db.getCollection('stu').insertMany
 		    'id':26, 
 		    'name':"ashen",
 		    'age':20
+		},
+		{
+		    'id':50,
+		    'name':"isuru",
+		    'age':23
 		}
 	]
 )
