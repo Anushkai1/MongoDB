@@ -21,6 +21,8 @@ db.getCollection('stu').insertMany
 	]
 )
 
+db.getCollection('stu').find()
+
 
 
 
