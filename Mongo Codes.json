@@ -25,7 +25,8 @@ db.getCollection('stu').find()
 
 db.getCollection('stu').update
 (
-
+    { 'id':1 } ,
+    { $set : { name:"Yasiru" } }
 )
 
 
