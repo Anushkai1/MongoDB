@@ -35,5 +35,6 @@ db.getCollection('stu').deleteOne( { id:1 } )
 
 db.getCollection('stu').deleteMany( { id:1 } )
 
+db.getCollection('stu').find( { $or : [ { id:6 }, { id:16 } ] } )
 
 
