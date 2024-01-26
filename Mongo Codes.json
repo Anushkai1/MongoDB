@@ -29,6 +29,8 @@ db.getCollection('stu').update
     { $set : { name:"Yasiru" } }
 )
 
+db.getCollection('stu').remove( { id:1 } )
+
 
 
 
