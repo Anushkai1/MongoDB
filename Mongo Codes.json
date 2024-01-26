@@ -31,6 +31,8 @@ db.getCollection('stu').update
 
 db.getCollection('stu').remove( { id:1 } )
 
+db.getCollection('stu').deleteOne( { id:1 } )
+
 
 
 
