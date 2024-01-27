@@ -39,3 +39,4 @@ db.getCollection('stu').find( { $or : [ { id:6 }, { id:16 } ] } )
 
 db.getCollection('stu').find( { $and : [ { id:6 }, { name:'sdfs'} ] })
 
+db.getCollection('stu').find( { $and : [ { id:{ $lt:20 } },{ id:{ $gt:10 } } ] })
